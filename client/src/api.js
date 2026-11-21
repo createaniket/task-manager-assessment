@@ -1,4 +1,4 @@
-const BASE = "/api/tasks";
+const BASE = "https://server-nine-alpha-30.vercel.app/api/tasks";
 
 async function request(url, options) {
   const res = await fetch(url, {
